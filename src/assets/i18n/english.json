@@ -1,0 +1,11 @@
+{
+    "menubar": {
+        "dietfit":"DietFit",
+        "dietproducts":"Diet Products",
+        "dietplan":"Diet plan",
+        "feedback":"Feedback",
+        "responce":"Responce",
+        "owndiet":"OwnDiet",
+        "logout":"Logout"
+    }
+}

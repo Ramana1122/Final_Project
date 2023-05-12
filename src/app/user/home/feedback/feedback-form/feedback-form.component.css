@@ -1,0 +1,95 @@
+.container {
+    text-align: center;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .feedback-form {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .feedback-form h3 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .feedback-form table {
+    margin: 0 auto;
+  }
+  
+  .feedback-form th {
+    text-align: left;
+    font-size: 20px;
+    padding-right: 20px;
+  }
+  
+  .feedback-form td {
+    padding: 10px;
+  }
+  
+  .feedback-form input[type=text],
+  .feedback-form textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 18px;
+  }
+  
+  .feedback-form select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  
+  .feedback-form button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .feedback-form button[type=submit]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .feedback-form .error-message {
+    color: red;
+    font-size: 16px;
+  }
+  
+  .feedback-form .success-message {
+    color: green;
+    font-size: 16px;
+  }
+  

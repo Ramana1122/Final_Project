@@ -1,0 +1,35 @@
+.example-card {
+    margin: auto;
+    max-width: 700px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    border-radius: 5px;
+    border-color: black;
+  }
+  
+  .example-card .txt {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .example-card .par {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .response-box {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .response-box p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  

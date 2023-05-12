@@ -1,0 +1,1009 @@
+{
+  "users": [
+    {
+      "email": "anil@gmail.com",
+      "password": "$2a$10$qLCzxp8bYoFl0TUnM3khkOQed/oj6p0Vi9m91/WIlZqn6dzwsD4Iu",
+      "firstname": "Anil",
+      "lastname": "Kumar",
+      "id": 1
+    },
+    {
+      "email": "rahul@gmail.com",
+      "password": "$2a$10$GN3udmMj3FOG3Ya.tp5VmuBqBVwY0dYU1ro74BpVxs8xB0./Gqw8m",
+      "username": "rahul",
+      "lastname": "krishna",
+      "type": "user",
+      "id": 3
+    },
+    {
+      "email": "roger@gmail.com",
+      "password": "$2a$10$8VfL/mTrUsF7CsmFZBNCXuYKao0PM9CrOIxTn0iqWYoKD0vwPE1AC",
+      "username": "roger",
+      "lastname": "Federer",
+      "type": "admin",
+      "id": 4
+    },
+    {
+      "email": "kiran@gmail.com",
+      "password": "$2a$10$QxNGN1c9fIgWiQ5KHNwZnOWlZq8cJm/xM27oriUKLGptO8s9Pb2bq",
+      "username": "kiran",
+      "type": "user",
+      "id": 5
+    },
+    {
+      "email": "jackson@gmail.com",
+      "password": "$2a$10$.ZPImtvO49SX6YMHepjxV.PXhJoEDXuxnCtHG2bQ2KY/NErZ0SGYW",
+      "username": "jackson",
+      "type": "admin",
+      "lastname": "Mike",
+      "id": 6
+    },
+    {
+      "email": "naresh@gmail.com",
+      "password": "$2a$10$OhQd/XS2d3PAiWrNnYWXleoGC.2bMdZajo/yd5BSAxbGeqLw7YtEO",
+      "username": "naresh",
+      "type": "user",
+      "lastname": "Mike",
+      "id": 7
+    },
+    {
+      "email": "harish1@gmail.com",
+      "password": "$2a$10$svGznVNLN48xPFxadLPhLOxfYzOIpTgi8wahFfuptRKoXlAAZWsqa",
+      "username": "harish1",
+      "type": "user",
+      "id": 8
+    },
+    {
+      "email": "ram@gmail.com",
+      "password": "$2a$10$Qr.zpfDKFdykBi0WIoFj8uvha/doWkzQmhegAcWq4NGLFmlTCRhzm",
+      "username": "Ramana",
+      "type": "user",
+      "id": 9
+    },
+    {
+      "email": "aaa@gmail.com",
+      "password": "$2a$10$74X5W3GnPIf13hRcbs9usujfAYblEoCRQ6huBhbDCrZmqHrACM3Pi",
+      "username": "Ram11",
+      "type": "user",
+      "id": 10
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$0IW34uIqxKFggtRARzRqu.zsMbL8I1r80.OvHc0r0eLYm90yxK6mG",
+      "username": "Admin",
+      "type": "admin",
+      "id": 11
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "$2a$10$57KMEGC7a9oa95T8L2wvOuBBLtPx5SwmHVb3FTkkeXiNXyMyeNESO",
+      "username": "abcd",
+      "type": "user",
+      "id": 12
+    },
+    {
+      "email": "ramana@gmail.com",
+      "password": "$2a$10$8.uh.P/zJbUSnSEfEwQRTeRXgrLhQ9vFRakm1HDATKS8uls22QGZG",
+      "username": "Ramana",
+      "type": "user",
+      "id": 13
+    },
+    {
+      "email": "admin1@gmail.com",
+      "password": "$2a$10$WXYvpf449Xi7mQy8YgVure49wlLiXjHtpPRFmOKXAW5esEI/AMbaq",
+      "username": "Admin1",
+      "type": "admin",
+      "id": 14
+    },
+    {
+      "email": "nandhu@gmail.com",
+      "password": "$2a$10$GGFBVh2JCs2bYBRMLu.M2uHg1pRGDmgSZPMvKPZGxSRuEOW17xEVy",
+      "username": "Nandini",
+      "type": "user",
+      "id": 15
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image": "Taboule_Salad.jpg",
+      "name": "Cows' milk",
+      "Measure": "1 qt.",
+      "Grams": 976,
+      "Calories": 660,
+      "Protein": 32,
+      "Fat": 40,
+      "Sat.Fat": 36,
+      "Fiber": 0,
+      "Carbs": 48,
+      "type": "Dairy products"
+    },
+    {
+      "id": 2,
+      "image": "Greek_Sala.jpg",
+      "name": "Milk skim",
+      "Measure": "1 qt.",
+      "Grams": 984,
+      "Calories": 360,
+      "Protein": 36,
+      "Fat": 56,
+      "Sat.Fat": "t",
+      "Fiber": 0,
+      "Carbs": 52,
+      "type": "Dairy products"
+    },
+    {
+      "id": 3,
+      "image": "Chicken_Caesar_Sala.jpg",
+      "name": "Lentils",
+      "Measure": "1 cup",
+      "Grams": 200,
+      "Calories": 212,
+      "Protein": 15,
+      "Fat": 13,
+      "Sat.Fat": 0,
+      "Fiber": 2.4,
+      "Carbs": 38,
+      "type": "Dairy products"
+    },
+    {
+      "id": 4,
+      "image": "Chickpea_Sala.jpg",
+      "name": "Lettuce",
+      "Measure": "1/4 head",
+      "Grams": 100,
+      "Calories": 14,
+      "Protein": 1,
+      "Fat": 54,
+      "Sat.Fat": 0,
+      "Fiber": 0.5,
+      "Carbs": 2,
+      "type": "Dairy products"
+    },
+    {
+      "id": 5,
+      "image": "Pasta_Primaver.jpg",
+      "name": "Iceberg",
+      "Measure": "1/4 head",
+      "Grams": 100,
+      "Calories": 13,
+      "Protein": "t",
+      "Fat": 56,
+      "Sat.Fat": 0,
+      "Fiber": 0.5,
+      "Carbs": 3,
+      "type": "Dairy products"
+    },
+    {
+      "id": 6,
+      "image": "Tuna_Sala.jpg",
+      "name": "Collards",
+      "Measure": "1 cup",
+      "Grams": 150,
+      "Calories": 51,
+      "Protein": 5,
+      "Fat": 67,
+      "Sat.Fat": 0,
+      "Fiber": 2,
+      "Carbs": 8,
+      "type": "Dairy products"
+    },
+    {
+      "id": 7,
+      "image": "Egg_Sala.jpg",
+      "name": "Chard steamed",
+      "Measure": "1 cup",
+      "Grams": 150,
+      "Calories": 30,
+      "Protein": 2,
+      "Fat": 13,
+      "Sat.Fat": 0,
+      "Fiber": 1.4,
+      "Carbs": 7,
+      "type": "Vegetables A-E"
+    },
+    {
+      "id": 8,
+      "image": "Pacific_Sala.jpg",
+      "name": "Yolks",
+      "Measure": 2,
+      "Grams": 34,
+      "Calories": 120,
+      "Protein": 6,
+      "Fat": 10,
+      "Sat.Fat": 8,
+      "Fiber": 0,
+      "Carbs": "t",
+      "type": "Fats, Oils, Shortenings"
+    },
+    {
+      "id": 9,
+      "image": "Vegan_Chopped_Sala.jpg",
+      "name": "Butter",
+      "Measure": "1T.",
+      "Grams": 14,
+      "Calories": 100,
+      "Protein": "t",
+      "Fat": 11,
+      "Sat.Fat": 10,
+      "Fiber": 0,
+      "Carbs": "t",
+      "type": "Fats, Oils, Shortenings"
+    },
+    {
+      "id": 10,
+      "image": "Sesame_Seaweed_Sala.jpg",
+      "name": "Hydrogenated ",
+      "Measure": "1/2 cup",
+      "Grams": 100,
+      "Calories": 665,
+      "Protein": 0,
+      "Fat": 100,
+      "Sat.Fat": 88,
+      "Fiber": 0,
+      "Carbs": 0,
+      "type": "Fats, Oils, Shortenings"
+    },
+    {
+      "id": 11,
+      "name": "Salt pork",
+      "Measure": "2 oz.",
+      "Grams": 60,
+      "Calories": 470,
+      "Protein": 3,
+      "Fat": 55,
+      "Sat.Fat": "",
+      "Fiber": 0,
+      "Carbs": 0,
+      "type": "Meat, Poultry",
+      "image": "Black_Bean_Sala.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Bacon",
+      "Measure": "2 slices",
+      "Grams": 16,
+      "Calories": 95,
+      "Protein": 4,
+      "Fat": 8,
+      "Sat.Fat": 7,
+      "Fiber": 0,
+      "Carbs": 1,
+      "type": "Meat, Poultry",
+      "image": "Muffuletta_Olive_Sala.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Beef",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 245,
+      "Protein": 23,
+      "Fat": 16,
+      "Sat.Fat": 15,
+      "Fiber": 0,
+      "Carbs": 0,
+      "type": "Meat, Poultry",
+      "image": "Broccoli_Crunch_Sala.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Hamburger",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 245,
+      "Protein": 21,
+      "Fat": 17,
+      "Sat.Fat": 15,
+      "Fiber": 0,
+      "Carbs": 0,
+      "type": "Meat, Poultry",
+      "image": "Seasoned_Squid_Sala.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Halibut",
+      "Measure": "3 1/2 oz.",
+      "Grams": 100,
+      "Calories": 182,
+      "Protein": 26,
+      "Fat": 8,
+      "Sat.Fat": 0,
+      "Fiber": 0,
+      "Carbs": 0,
+      "type": "Fish, Seaname",
+      "image": "Brussels_Sala.jpg"
+    },
+    {
+      "id": 16,
+      "image": "Gala_Appl.jpg",
+      "name": "Ground lean",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 185,
+      "Protein": 24,
+      "Fat": 10,
+      "Sat.Fat": 9,
+      "Fiber": 0,
+      "Carbs": 0,
+      "type": "Meat, Poultry"
+    },
+    {
+      "id": 17,
+      "image": "Green_Appl.jpg",
+      "name": "Haddock",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 135,
+      "Protein": 16,
+      "Fat": 5,
+      "Sat.Fat": 4,
+      "Fiber": 0,
+      "Carbs": 6,
+      "type": "Fish, Seaname"
+    },
+    {
+      "id": 18,
+      "image": "Cherry_Tomatoe.jpg",
+      "name": "Herring",
+      "Measure": "1 small",
+      "Grams": 100,
+      "Calories": 211,
+      "Protein": 22,
+      "Fat": 13,
+      "Sat.Fat": 0,
+      "Fiber": 0,
+      "Carbs": 0,
+      "type": "Fish, Seaname"
+    },
+    {
+      "id": 19,
+      "image": "Red_Cherr.jpg",
+      "name": "Lobster",
+      "Measure": "aver.",
+      "Grams": 100,
+      "Calories": 92,
+      "Protein": 18,
+      "Fat": 1,
+      "Sat.Fat": 0,
+      "Fiber": 0,
+      "Carbs": "t",
+      "type": "Fish, Seaname"
+    },
+    {
+      "id": 20,
+      "image": "Blueberrie.jpg",
+      "name": "Mackerel",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 155,
+      "Protein": 18,
+      "Fat": 9,
+      "Sat.Fat": 0,
+      "Fiber": "a",
+      "Carbs": 0,
+      "type": "Fish, Seaname"
+    },
+    {
+      "id": 21,
+      "image": "Strawberrie.jpg",
+      "name": "Oysters",
+      "Measure": "6-8 med.",
+      "Grams": 230,
+      "Calories": 231,
+      "Protein": 232,
+      "Fat": 233,
+      "Sat.Fat": 234,
+      "Fiber": 235,
+      "Carbs": 236,
+      "type": "Fish, Seaname"
+    },
+    {
+      "id": 22,
+      "image": "Banan.jpg",
+      "name": "Lima, dry, cooked",
+      "Measure": "1 cup",
+      "Grams": 192,
+      "Calories": 260,
+      "Protein": 16,
+      "Fat": 39,
+      "Sat.Fat": "t",
+      "Fiber": 2,
+      "Carbs": 48,
+      "type": "Vegetables A-E"
+    },
+    {
+      "id": 23,
+      "image": "Watermelo.jpg",
+      "name": "Navy, baked ",
+      "Measure": "3/4 cup",
+      "Grams": 200,
+      "Calories": 250,
+      "Protein": 11,
+      "Fat": 6,
+      "Sat.Fat": 6,
+      "Fiber": 2,
+      "Carbs": 37,
+      "type": "Vegetables A-E"
+    },
+    {
+      "id": 24,
+      "image": "Honeyde.jpg",
+      "name": "Red kidney",
+      "Measure": "1 cup",
+      "Grams": 260,
+      "Calories": 230,
+      "Protein": 15,
+      "Fat": 1,
+      "Sat.Fat": 0,
+      "Fiber": 2.5,
+      "Carbs": 42,
+      "type": "Vegetables A-E"
+    },
+    {
+      "id": 25,
+      "image": "RedGrape.jpg",
+      "name": "Bean sprouts",
+      "Measure": "1 cup",
+      "Grams": 50,
+      "Calories": 17,
+      "Protein": 1,
+      "Fat": 78,
+      "Sat.Fat": 0,
+      "Fiber": 0.3,
+      "Carbs": 3,
+      "type": "Vegetables A-E"
+    },
+    {
+      "id": 26,
+      "image": "GreenGrape.jpg",
+      "name": "Beetroots",
+      "Measure": "1 cup",
+      "Grams": 165,
+      "Calories": 1,
+      "Protein": 12,
+      "Fat": 0,
+      "Sat.Fat": "",
+      "Fiber": 32,
+      "Carbs": 0.8,
+      "type": "Vegetables A-E"
+    },
+    {
+      "id": 27,
+      "image": "Orang.jpg",
+      "name": "Sauerkraut",
+      "Measure": "1 cup",
+      "Grams": 150,
+      "Calories": 32,
+      "Protein": 1,
+      "Fat": 54,
+      "Sat.Fat": 0,
+      "Fiber": 1.2,
+      "Carbs": 7,
+      "type": "Vegetables A-E"
+    },
+    {
+      "id": 28,
+      "image": "Grapefrui.jpg",
+      "name": "Carrots",
+      "Measure": "1 cup",
+      "Grams": 150,
+      "Calories": 45,
+      "Protein": 1,
+      "Fat": 78,
+      "Sat.Fat": 0,
+      "Fiber": 0.9,
+      "Carbs": 10,
+      "type": "Vegetables A-E"
+    },
+    {
+      "id": 29,
+      "image": "Kiw.jpg",
+      "name": "Lentils",
+      "Measure": "1 cup",
+      "Grams": 200,
+      "Calories": 212,
+      "Protein": 15,
+      "Fat": 49,
+      "Sat.Fat": 0,
+      "Fiber": 2.4,
+      "Carbs": 38,
+      "type": "Vegetables F-P"
+    },
+    {
+      "id": 30,
+      "image": "Mang.jpg",
+      "name": "Lettuce",
+      "Measure": "1/4 head",
+      "Grams": 100,
+      "Calories": 14,
+      "Protein": 1,
+      "Fat": 29,
+      "Sat.Fat": 0,
+      "Fiber": 0.5,
+      "Carbs": 2,
+      "type": "Vegetables F-P"
+    },
+    {
+      "id": 31,
+      "image": "GreenCoconu.jpg",
+      "name": "Iceberg",
+      "Measure": "1/4 head",
+      "Grams": 100,
+      "Calories": 13,
+      "Protein": "t",
+      "Fat": 19,
+      "Sat.Fat": 0,
+      "Fiber": 0.5,
+      "Carbs": 3,
+      "type": "Vegetables F-P"
+    },
+    {
+      "id": 32,
+      "image": "Pineappl.jpg",
+      "name": "Mushrooms ",
+      "Measure": 4,
+      "Grams": 120,
+      "Calories": 12,
+      "Protein": 2,
+      "Fat": 67,
+      "Sat.Fat": 0,
+      "Fiber": 16,
+      "Carbs": 4,
+      "type": "Vegetables F-P"
+    },
+    {
+      "id": 33,
+      "image": "Orange_Juic.jpg",
+      "name": "Mustard greens",
+      "Measure": 1,
+      "Grams": 140,
+      "Calories": 30,
+      "Protein": 3,
+      "Fat": 29,
+      "Sat.Fat": 0,
+      "Fiber": 1.2,
+      "Carbs": 6,
+      "type": "Vegetables F-P"
+    },
+    {
+      "id": 34,
+      "image": "Grape_Juic.jpg",
+      "name": "Okra",
+      "Measure": "1 1/3 cups",
+      "Grams": 100,
+      "Calories": 32,
+      "Protein": 1,
+      "Fat": 13,
+      "Sat.Fat": 0,
+      "Fiber": 1,
+      "Carbs": 7,
+      "type": "Vegetables F-P"
+    },
+    {
+      "id": 35,
+      "image": "Apple_Juic.jpg",
+      "name": "Onions",
+      "Measure": 1,
+      "Grams": 210,
+      "Calories": 80,
+      "Protein": 2,
+      "Fat": 0,
+      "Sat.Fat": 0,
+      "Fiber": 1.6,
+      "Carbs": 18,
+      "type": "Vegetables F-P"
+    },
+    {
+      "id": 36,
+      "image": "Pineapple_Juic.jpg",
+      "name": "Raw, green",
+      "Measure": "6 small",
+      "Grams": 50,
+      "Calories": 22,
+      "Protein": "t",
+      "Fat": 0,
+      "Sat.Fat": 0,
+      "Fiber": 1,
+      "Carbs": 5,
+      "type": "Vegetables F-P"
+    },
+    {
+      "id": 37,
+      "image": "Mango_Juic.jpg",
+      "name": "Potato chips",
+      "Measure": 10,
+      "Grams": 20,
+      "Calories": 110,
+      "Protein": 1,
+      "Fat": 7,
+      "Sat.Fat": 4,
+      "Fiber": 15,
+      "Carbs": 10,
+      "type": "Vegetables R-Z"
+    },
+    {
+      "id": 38,
+      "image": "Strawberry_Juic.jpg",
+      "name": "Radishes",
+      "Measure": "5 small",
+      "Grams": 50,
+      "Calories": 10,
+      "Protein": "t",
+      "Fat": 0,
+      "Sat.Fat": 0,
+      "Fiber": 0.3,
+      "Carbs": 2,
+      "type": "Vegetables R-Z"
+    },
+    {
+      "id": 39,
+      "image": "Canberry_Juic.jpg",
+      "name": "Rutabagas",
+      "Measure": "4 cups",
+      "Grams": 100,
+      "Calories": 32,
+      "Protein": "t",
+      "Fat": 0,
+      "Sat.Fat": 0,
+      "Fiber": 1.4,
+      "Carbs": 8,
+      "type": "Vegetables R-Z"
+    },
+    {
+      "id": 40,
+      "image": "Canberry_Jui.jpg",
+      "name": "Spinach",
+      "Measure": "1 cup",
+      "Grams": 100,
+      "Calories": 26,
+      "Protein": 3,
+      "Fat": 6,
+      "Sat.Fat": 0,
+      "Fiber": 1,
+      "Carbs": 3,
+      "type": "Vegetables R-Z"
+    },
+    {
+      "id": 41,
+      "image": "Bell_peppe.jpg",
+      "name": "Cantaloupe",
+      "Measure": "1/2 med.",
+      "Grams": 380,
+      "Calories": 40,
+      "Protein": 1,
+      "Fat": 3,
+      "Sat.Fat": 0,
+      "Fiber": 2.2,
+      "Carbs": 9,
+      "type": "Fruits A-F"
+    },
+    {
+      "id": 42,
+      "image": "Red_Onio.jpg",
+      "name": "Cherries",
+      "Measure": "1 cup",
+      "Grams": 257,
+      "Calories": 100,
+      "Protein": 2,
+      "Fat": 1,
+      "Sat.Fat": 0,
+      "Fiber": 2,
+      "Carbs": 26,
+      "type": "Fruits A-F"
+    },
+    {
+      "id": 43,
+      "image": "Potat.jpg",
+      "name": "Fresh, raw",
+      "Measure": "1 cup",
+      "Grams": 114,
+      "Calories": 65,
+      "Protein": 1,
+      "Fat": 6,
+      "Sat.Fat": 0,
+      "Fiber": 0.8,
+      "Carbs": 15,
+      "type": "Fruits A-F"
+    },
+    {
+      "id": 44,
+      "image": "Squas.jpg",
+      "name": "Cranberry ",
+      "Measure": "1 cup",
+      "Grams": 277,
+      "Calories": 530,
+      "Protein": "t",
+      "Fat": 7,
+      "Sat.Fat": 0,
+      "Fiber": 1.2,
+      "Carbs": 142,
+      "type": "Fruits A-F"
+    },
+    {
+      "id": 45,
+      "image": "SweetPotat.jpg",
+      "name": "Dates",
+      "Measure": "1 cup",
+      "Grams": 178,
+      "Calories": 505,
+      "Protein": 4,
+      "Fat": 12,
+      "Sat.Fat": 0,
+      "Fiber": 3.6,
+      "Carbs": 134,
+      "type": "Fruits A-F"
+    },
+    {
+      "id": 46,
+      "image": "Eggplan.jpg",
+      "name": "Figs",
+      "Measure": 2,
+      "Grams": 42,
+      "Calories": 120,
+      "Protein": 2,
+      "Fat": 7,
+      "Sat.Fat": 0,
+      "Fiber": 1.9,
+      "Carbs": 30,
+      "type": "Fruits A-F"
+    },
+    {
+      "id": 47,
+      "image": "Cauliflowe.jpg",
+      "name": "Fresh, raw figs",
+      "Measure": "3 med.",
+      "Grams": 114,
+      "Calories": 90,
+      "Protein": 2,
+      "Fat": 23,
+      "Sat.Fat": 0,
+      "Fiber": 1,
+      "Carbs": 22,
+      "type": "Fruits A-F"
+    },
+    {
+      "id": 48,
+      "image": "Cabbag.jpg",
+      "name": "Dates",
+      "Measure": "1 cup",
+      "Grams": 178,
+      "Calories": 505,
+      "Protein": 4,
+      "Fat": 12,
+      "Sat.Fat": 0,
+      "Fiber": 3.6,
+      "Carbs": 134,
+      "Category": "Fruits A-F"
+    },
+    {
+      "id": 49,
+      "image": "Red_Cabbag.jpg",
+      "name": "figs Canned ",
+      "Measure": 3,
+      "Grams": 115,
+      "Calories": 130,
+      "Protein": 1,
+      "Fat": 17,
+      "Sat.Fat": 0,
+      "Fiber": 1,
+      "Carbs": 32,
+      "type": "Fruits A-F"
+    },
+    {
+      "id": 50,
+      "image": "Carr.jpg",
+      "name": "Fruit cocktail",
+      "Measure": "1 cup",
+      "Grams": 256,
+      "Calories": 195,
+      "Protein": 1,
+      "Fat": 16,
+      "Sat.Fat": 0,
+      "Fiber": 0.5,
+      "Carbs": 50,
+      "type": "Fruits A-F"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "Diet Plan For Below 10 ",
+      "description": "",
+      "image": "brandin.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Diet Plan For Adults",
+      "description": "Diversity in Indian culture is responsible for diversity in the Indian diet. name is substantially different in various parts of India and uses locally grown produce, be it spices, herbs, vegetables, and fruits. The traditional Indian diet uses less processed and more natural ingredients. The meals are a sit-down affair with family, friends.",
+      "image": "inboun.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Diet Plan For Old People",
+      "description": "Maintain healthy weight and muscle strength through physical activity. The benefits of walking for older people]. It’s been shown people over 65 years often have better health if they carry a little extra weight and have a slightly higher body mass index. Talk to your healthcare professional if you need to lose or gain weight.",
+      "image": "film.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Diet Plan For Skiny People",
+      "description": "Most of the children are skinny and thin naturally as they are very physically active. As they grow up, they start putting on weight as calorie intake becomes higher and physical activity lowers. So, you need not to worry about them being thin or skinny. The problem starts when they start feeling weak. Here you need to pay attention to their diet. Add milk and its products, eggs, grain, nuts, banana, and starchy names in their diets that is also an effective bulk up plan for skinny guys.   ",
+      "image": "digita.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Diet Plan For Obesy People",
+      "description": "To deal with underweight, maintaining a proper nutritious diet is important. We create a weight gain meal plan for underweight, easily followed by both males and females. We try to add name with high-calorie names for underweight adults. This diet meal plan is used to provide the right nutrients, vitamins, and minerals required by the body. You can easily buy name items listed in the underweight diet meal plan in your local markets.  ",
+      "image": "ecommerc.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Diet Plan To Be Fit",
+      "description": " ",
+      "image": "marke.jpg"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": 6360,
+      "name": "Arjun",
+      "email": "arjun@gmail.com",
+      "type": "Film & Webinar",
+      "message": "This is a perfect collaboration. Looking forward to work again."
+    },
+    {
+      "id": 3359,
+      "name": "Ramana",
+      "email": "ramana@gmail.com",
+      "type": "Vegetables F-P",
+      "message": "The products are very nice... And Details are very good..."
+    }
+  ],
+  "enquiries": [
+    {
+      "id": 10400,
+      "fname": "Venkata",
+      "lname": "Ramana",
+      "email": "ramana@gmail.com",
+      "name": "Milk Sklim",
+      "message": "This product is very nice to use and calories and details are nice.....",
+      "response": "Thanks For Your Feedback we will get back to You....."
+    },
+    {
+      "id": 14200,
+      "fname": "Ravi",
+      "lname": "Sankar",
+      "email": "ravi@gmail.com",
+      "name": "Butter",
+      "message": "I want to know more details and more information about the product.....???????",
+      "response": ".....Will get back to You Soon....."
+    },
+    {
+      "id": 37191,
+      "fname": "Naveen",
+      "lname": "Kumar",
+      "email": "naveen@gmail.com",
+      "name": "Yolks",
+      "message": "Its is very good for health... But May I know something more about the product in detail...????",
+      "response": "Thanks For Your Feedback we will get back to You....."
+    },
+    {
+      "id": 27834,
+      "fname": "Bharath",
+      "lname": "Sai",
+      "email": "bharath@gmail.com",
+      "name": "Lima, dry, cooked",
+      "message": "I want more details about the product....????",
+      "response": "Thank, You... U will Get your details Soon..."
+    },
+    {
+      "id": 71783,
+      "fname": "waukf3uygyuqgw",
+      "lname": "uakyfuagyuAGY",
+      "email": "eaeea@gmail.com",
+      "name": "AYTFYAETGFATG",
+      "message": "ytwtafftawqwcvqvucquewucwyw wufygeuygYGYWG"
+    },
+    {
+      "response": "ytytytytfyt",
+      "id": 71784
+    }
+  ],
+  "details": [
+    {
+      "id": 1,
+      "title": "Diet Plan For Below 10",
+      "description": [
+        "It should be free from harmful calories like added sugar and trans fats.",
+        "Kids need around 1000 – 1400 Kcal every day. However, as age increases, the required calories also increase.",
+        "Kids should be given fresh fruits and vegetables.",
+        "Fruits should be raw and nutrient-dense.",
+        "Dark green and leafy, red and orange, beans and peas should be served for vegetables along with sprouts ",
+        "Different types of grains should be given in order to have protection from any vitamin and nutrient deficiency.",
+        "Fat-free or low-fat drinks should also be the part of the diet. Milk, 100% pure juice, etc. can boost the energy level.",
+        "Dry fruits are rich sources of energy, they should be given based on the growth and activity level of the kids.",
+        "The diet must not include fried food as it includes saturated and trans-fat which are harmful to a healthy growth.",
+        "Artificial sweeteners should not be included in the diet.",
+        "The diet should be balanced and should be catering to the needs of the kids."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Diet Plan For Adults",
+      "description": [
+        "Diversity in Indian culture is responsible for diversity in the Indian diet. Food is substantially different in various parts of India and uses locally grown produce, be it spices, herbs, vegetables, and fruits. The traditional Indian diet uses less processed and more natural ingredients. The meals are a sit-down affair with family, friends.",
+        "Over the years, the influence of Mughal, Turks, Mauryans, Guptas, Portuguese and British is clearly seen in the Indian diet, but have easily been incorporated owing to the versatility and continuous evolution.",
+        "Indian diet is one of the healthiest diet, rich in taste, texture, and most of all satisfying, if prepared with minimal oil and healthy cooking methods.",
+        "Most of the food is prepared from scratch, using fresh produce which means less preservative and more nutrients.",
+        "The basic north Indian diet consists of Lentils (contains vitamin A, B, C, E, are rich in calcium, iron, potassium, dietary fibers, help in controlling blood sugar, blood cholesterol and increases digestion), Grains (contains wheat, jowar, bajra, barley, these are rich in fibers, carbohydrate), fresh Vegetables, and Fruits.",
+        "Indian cooking uses spices like Turmeric which reduces cholesterol, blood pressure and prevents blood clotting, Curry Leaves washes out toxins from body, cuts down fat, prevents greying of hair, Chilly burns fat and improves metabolism, Garlic is antibacterial and reduces cholesterol, fat.",
+        "Curd, an essential part of south Indian diet, keeps the digestive tract healthy. Calcium prevents the development of Insulin resistance."
+      ],
+      "image": "inboun.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Diet Plan For Old People",
+      "description": [
+        "vegetables: a standard serve is about 75 grams (100–350 kilojoules); for example, ½ cup cooked green or orange vegetables or ½ cup cooked dried or canned beans, peas or lentils",
+        "fruit: a standard serve is 150 grams (350 kilojoules); for example, a medium apple or banana, or two kiwifruits or plums. Try to eat whole fruit and not fruit juice",
+        "grain foods: a standard serve is 500 kilojoules; for example, one slice of bread or ½ cup cooked porridge. At least two-thirds of choices should be wholegrain varieties",
+        "lean meats and poultry, fish, eggs, tofu, nuts and seeds, and legumes/beans: a standard serve is 500–600 kilojoules; for example, 65 grams cooked lean red meats or two large eggs",
+        "milk, yoghurt and cheese or alternatives: a standard serve is 500–600 kilojoules; for example, a cup of milk or ¾ cup yoghurt."
+      ],
+      "image": "film.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Diet Plan For Skiny People",
+      "description": [
+        "Over the years, the influence of Mughal, Turks, Mauryans, Guptas, Portuguese and British is clearly seen in the Indian diet, but have easily been incorporated owing to the versatility and continuous evolution.",
+        "Indian diet is one of the healthiest diet, rich in taste, texture, and most of all satisfying, if prepared with minimal oil and healthy cooking methods.",
+        "Most of the food is prepared from scratch, using fresh produce which means less preservative and more nutrients.",
+        "The basic north Indian diet consists of Lentils (contains vitamin A, B, C, E, are rich in calcium, iron, potassium, dietary fibers, help in controlling blood sugar, blood cholesterol and increases digestion), Grains (contains wheat, jowar, bajra, barley, these are rich in fibers, carbohydrate), fresh Vegetables, and Fruits.",
+        "Indian cooking uses spices like Turmeric which reduces cholesterol, blood pressure and prevents blood clotting, Curry Leaves washes out toxins from body, cuts down fat, prevents greying of hair, Chilly burns fat and improves metabolism, Garlic is antibacterial and reduces cholesterol, fat."
+      ],
+      "image": "digita.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Diet Plan For Obesy People",
+      "description": [
+        "Fruits should be raw and nutrient-dense.",
+        "Dark green and leafy, red and orange, beans and peas should be served for vegetables along with sprouts ",
+        "Different types of grains should be given in order to have protection from any vitamin and nutrient deficiency.",
+        "Fat-free or low-fat drinks should also be the part of the diet. Milk, 100% pure juice, etc. can boost the energy level.",
+        "Dry fruits are rich sources of energy, they should be given based on the growth and activity level of the kids.",
+        "The diet must not include fried food as it includes saturated and trans-fat which are harmful to a healthy growth.",
+        "Artificial sweeteners should not be included in the diet."
+      ],
+      "image": "ecommerc.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Diet Plan To Be Fit",
+      "description": [
+        "When bulking up or slimming down, your protein and fat intake should be very similar. Eat 1–1.5 grams of protein per pound of your body weight and 0.4 gram of fat per pound.",
+        "Carbohydrates have the greatest effect on body weight due to their impact on insulin, a hormone that alternately causes muscle or fat gain depending on the timing and composition of your meals. For this reason, the amount of carbs you eat will vary greatly depending on your goal.",
+        "To gain size, you should consume two grams of carbs per pound of your body weight. Be prepared to gain some fat along with the muscle, as more carbs mean higher insulin levels and more potential for fat storage. To lose fat, consume one gram of carbs per pound."
+      ],
+      "image": "marke.jpg"
+    }
+  ],
+  "responses": [
+    {
+      "commonid": 10400,
+      "response": "pleaseeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "id": 1
+    },
+    {
+      "commonid": 10400,
+      "id": 2
+    },
+    {
+      "commonid": 10400,
+      "response": "Thanks For Your Feedback we will get back to You.....",
+      "id": 3
+    }
+  ]
+}

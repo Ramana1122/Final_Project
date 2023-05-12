@@ -1,0 +1,32 @@
+.example-card {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    width:600px;
+  }
+  
+  .responsebox {
+    width: 100%;
+  }
+  
+  .send-btn {
+    margin-left: 10px;
+  }
+  
+  .send-btn mat-icon {
+    margin-left: 5px;
+  }
+  
+  @media (max-width: 600px) {
+    .example-card {
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    .send-btn {
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  }
+  

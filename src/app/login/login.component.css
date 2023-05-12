@@ -1,0 +1,58 @@
+#login-card {
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #login-card img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 150px;
+  }
+  
+  #log-table {
+    margin: 0 auto;
+  }
+  
+  #log-table th,
+  #log-table td {
+    padding: 10px;
+  }
+  
+  #log-table th {
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  #log-table input[type="text"],
+  #log-table input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #log-table button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #log-table button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .errors {
+    color: #ff0000;
+    margin-top: 10px;
+    text-align: center;
+  }

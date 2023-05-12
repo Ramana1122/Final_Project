@@ -1,0 +1,12 @@
+<mat-card class="example-card">
+<mat-card-actions>
+    <mat-form-field appearance="outline" class="responsebox">
+      <textarea matInput placeholder="Write your response here..." rows="6" [(ngModel)]="response"></textarea>
+    </mat-form-field>
+    <button mat-raised-button color="primary" class="send-btn" (click)="sendResponse(responsebox.id)">
+      Send
+      <mat-icon>send</mat-icon>
+    </button>
+  </mat-card-actions>
+</mat-card>
+<!-- <p>{{responsebox.id}}</p> -->

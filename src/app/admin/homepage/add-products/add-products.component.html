@@ -1,0 +1,99 @@
+<button (click)="showForm = !showForm">Add Product</button>
+<div *ngIf="showForm">
+<div class="container">
+  <h2 class="animate__animated animate__fadeInDown">Add Products</h2>
+  <form>
+    <div class="form-group animate__animated animate__fadeInUp">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" [(ngModel)]="name" name="name" id="name">
+    </div>
+    <div class="form-group animate__animated animate__fadeInUp">
+      <label for="image">Image</label>
+      <input type="text" class="form-control" [(ngModel)]="Image" name="Image" id="image">
+    </div>
+    <div class="form-group animate__animated animate__fadeInUp">
+      <label for="measure">Measure</label>
+      <input type="text" class="form-control" [(ngModel)]="Measure" name="Measure" id="measure">
+    </div>
+    <div class="form-group animate__animated animate__fadeInUp">
+      <label for="grams">Grams</label>
+      <input type="text" class="form-control" [(ngModel)]="Grams" name="Grams" id="grams">
+    </div>
+    <div class="form-group animate__animated animate__fadeInUp">
+      <label for="calories">Calories</label>
+      <input type="text" class="form-control" [(ngModel)]="Calories" name="Calories" id="calories">
+    </div>
+    <div class="form-group animate__animated animate__fadeInUp">
+      <label for="fat">Fat</label>
+      <input type="text" class="form-control" [(ngModel)]="Fat" name="Fat" id="fat">
+    </div>
+    <div class="form-group animate__animated animate__fadeInUp">
+      <label for="protein">Protein</label>
+      <input type="text" class="form-control" [(ngModel)]="Protein" name="Protein" id="protein">
+    </div>
+    <div class="form-group animate__animated animate__fadeInUp">
+      <label for="sat">Sat</label>
+      <input type="text" class="form-control" [(ngModel)]="Sat" name="Sat" id="sat">
+    </div>
+    <div class="form-group animate__animated animate__fadeInUp">
+      <label for="fiber">Fiber</label>
+      <input type="text" class="form-control" [(ngModel)]="Fiber" name="Fiber" id="fiber">
+    </div>
+    <div class="form-group animate__animated animate__fadeInUp">
+      <label for="carbs">Carbs</label>
+      <input type="text" class="form-control" [(ngModel)]="Crabs" name="Crabs" id="carbs">
+    </div>
+    <div class="form-group animate__animated animate__fadeInUp">
+      <label for="type">Select Type</label>
+      <select class="form-control" [(ngModel)]="Type" name="Type" id="type">
+        <option value="Dairy products">Dairy products</option>
+        <option value="Fats, Oils, Shortenings">Fats, Oils, Shortenings</option>
+        <option value="Vegetables A-E">Vegetables A-E</option>
+        <option value="Vegetables F-P">Vegetables F-P</option>
+        <option value="Vegetables R-Z">Vegetables R-Z</option>
+        <option value="Meat, Poultry">Meat, Poultry</option>
+        <option value="Fish, Seaname">Fish, Seaname</option>
+        <option value="Fruits A-F">Fruits A-F</option>
+      </select>      
+    </div>
+    <div class="alert alert-info" *ngIf="errors.length>0">
+      <ul>
+        <li *ngFor="let x of errors">{{x}}</li>
+      </ul>
+    </div>
+    <button type="submit" class="btn btn-primary animate__animated animate__fadeInUp" (click)="submit()">Add Product</button>
+</form>
+</div>
+
+<!--<div></div> -->
+
+<div class="container">
+  <table class='table table-trapped'>
+      <thead>
+          <tr>
+              <th>FOOD</th>
+              <th>CATEGORY</th>
+              <th>MEASURE</th>
+              <th>GRAMS</th>
+              <th>CALORIES</th>
+              <th>PROTEIN</th>
+              <th>FAT</th>
+              <th>FIBER</th>
+              <th>Action</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let data of gdata ">
+              <td>{{data.Food}}</td>
+              <td>{{data.Category}}</td>
+              <td>{{data.Measure}}</td>
+              <td>{{data.Grams}}</td>
+              <td>{{data.Calories}}</td>
+              <td>{{data.Protein}}</td>
+              <td>{{data.Fat}}</td>
+              <td>{{data.Fiber}}</td>
+              <td><button (click)="removeItem(data.id)" class="btn btn-danger"><i class="material-icons">delete</i></button></td>
+          </tr>
+      </tbody>
+  </table>
+</div>

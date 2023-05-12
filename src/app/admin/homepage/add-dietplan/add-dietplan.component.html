@@ -1,0 +1,25 @@
+<div id="form">
+    <h2 class="producttitle">Enter Diet Plan </h2>
+    <div style="overflow: hidden;">
+    <div class="formbox">
+    <span class="name">Title:</span>
+    <input class="input" type="text" [(ngModel)]="title" placeholder="Enter the name of the product">
+    </div>
+    <div class="formbox">
+    <span class="name">Image:</span>
+    <input class="input" type="text" [(ngModel)]="image" placeholder="Enter the image name of the product">
+    </div>
+    <div class="inputbox">
+        <span class="name">Description:</span>
+        <mat-form-field appearance="outline" class="responsebox">
+          <textarea matInput matTextareaAutosize placeholder="Enter the description" [(ngModel)]="description"></textarea>
+        </mat-form-field>
+      </div>           
+    </div>
+    <div class="alert alert-info" *ngIf="errors.length>0">
+    <ul >
+    <li *ngFor="let x of errors">{{x}}</li>
+    </ul>
+    </div>
+    <div style="margin-left:140px;">
+    <button class=" button1" (click)="submit()">Add Product</button></div>

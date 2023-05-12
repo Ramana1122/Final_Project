@@ -1,0 +1,86 @@
+#form {
+    margin: 20px auto;
+    width: 600px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .producttitle {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .formbox {
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+  }
+  
+  .input {
+    padding: 6px 10px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .inputbox {
+    margin-bottom: 20px;
+  }
+  
+  .inputbox .responsebox {
+    width: 400px;
+    font-size: 16px;
+  }
+  
+  .responsebox textarea {
+    height: auto;
+    min-height: 100px;
+    max-height: 400px;
+    resize: vertical;
+    font-size: 16px;
+  }
+  
+  .button1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .button1:hover {
+    background-color: #3e8e41;
+  }
+  
+  .alert-info {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .alert-info ul {
+    list-style: disc inside;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .alert-info li {
+    margin: 5px 0;
+  }
+  
